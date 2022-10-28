@@ -1,9 +1,10 @@
 import './App.css';
+import StartSearch from './components/StartSearch';
 
 function App() {
   return (
-    <div className="bg-blue-300">
-      <h1>Hello</h1>
+    <div className="bg-green-400 h-screen">
+      <StartSearch />
     </div>
   );
 }
